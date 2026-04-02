@@ -100,6 +100,8 @@ spec:
           subPath: group
         - mountPath: "/skaha-system"
           name: start-jupyterlab
+        - mountPath: "/dev/shm"
+          name: dshm-volume
         {{ template "skaha.session.commonVolumeMounts" . }}
         securityContext:
           privileged: false
@@ -116,6 +118,10 @@ spec:
         emptyDir: { }
       - name: etc-passwd
         emptyDir: { }
+      - name: dshm-volume
+        emptyDir:
+          medium: Memory
+          sizeLimit: "${software.requests.ram}"
       - name: start-jupyterlab
         configMap:
           name: {{ .Release.Name }}-launch-scripts
