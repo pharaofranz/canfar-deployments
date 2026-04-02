@@ -17,7 +17,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.2.4
-    created: "2025-12-18T10:54:08.728704133+01:00"
+    created: "2026-04-02T15:06:41.311137631+02:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -46,7 +46,7 @@ entries:
   skaha:
   - apiVersion: v2
     appVersion: 1.1.7
-    created: "2025-12-18T10:54:08.725099192+01:00"
+    created: "2026-04-02T15:06:41.308058867+02:00"
     dependencies:
     - name: redis
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -56,7 +56,7 @@ entries:
       version: ^0.1.0
     description: A Helm chart to install the Skaha web service of the CANFAR Science
       Platform
-    digest: 174778ea7d13c827cb9218a2d829de9b2fa51c2f2eb0170f9ce24dabf79aad85
+    digest: a0fd39dad1c5be19ab71fce0f8f3b186af8d70ec56f6ce310b8c6030a92de1bb
     icon: https://www.canfar.net/css/images/logo.png
     maintainers:
     - email: djenkins.cadc@gmail.com
@@ -71,7 +71,7 @@ entries:
   utils:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-12-18T10:54:08.728848306+01:00"
+    created: "2026-04-02T15:06:41.311245814+02:00"
     description: A library Helm chart for common tasks
     digest: f44fed4ce569c8d982fe2337f2513c5526405777e28d1f1af1921ac7f0794eba
     maintainers:
@@ -84,4 +84,4 @@ entries:
     urls:
     - https://pharaofranz.github.io/canfar-deployments/helm/applications/skaha/charts/utils-0.1.1.tgz
     version: 0.1.1
-generated: "2025-12-18T10:54:08.716353453+01:00"
+generated: "2026-04-02T15:06:41.300246441+02:00"
