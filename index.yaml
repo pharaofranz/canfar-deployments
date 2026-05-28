@@ -17,7 +17,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.2.4
-    created: "2026-05-28T15:29:22.80861156-07:00"
+    created: "2026-05-28T15:36:01.660870735-07:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -46,7 +46,7 @@ entries:
   skaha:
   - apiVersion: v2
     appVersion: 1.1.7
-    created: "2026-05-28T15:29:22.80432725-07:00"
+    created: "2026-05-28T15:36:01.656455367-07:00"
     dependencies:
     - name: redis
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -56,7 +56,7 @@ entries:
       version: ^0.1.0
     description: A Helm chart to install the Skaha web service of the CANFAR Science
       Platform
-    digest: 73c740641b181159db2b9bd5b648f76d94ee0ae05649c1f0bf7b62f06f678a71
+    digest: eb031fa17ccb1584787006230c239bd2fbba17f39bba19294f78b5e90292d0ab
     icon: https://www.canfar.net/css/images/logo.png
     maintainers:
     - email: djenkins.cadc@gmail.com
@@ -71,9 +71,9 @@ entries:
   utils:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-05-28T15:29:22.808718725-07:00"
+    created: "2026-05-28T15:36:01.660998687-07:00"
     description: A library Helm chart for common tasks
-    digest: f7f181d31892854beecb7f31795e0e302c92d97cdcbef07d841397526be4695e
+    digest: 17e1ab03f56f30ba02e6e1d0f18d1b4618823e87f1b3dfc3023a199800e09369
     maintainers:
     - email: shiny.brar@nrc-cnrc.gc.ca
       name: Shiny Brar
@@ -84,4 +84,4 @@ entries:
     urls:
     - https://pharaofranz.github.io/canfar-deployments/charts/utils-0.1.1.tgz
     version: 0.1.1
-generated: "2026-05-28T15:29:22.795610075-07:00"
+generated: "2026-05-28T15:36:01.648343799-07:00"
