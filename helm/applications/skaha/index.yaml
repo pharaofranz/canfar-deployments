@@ -17,7 +17,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.2.4
-    created: "2026-04-02T15:06:41.311137631+02:00"
+    created: "2026-05-28T15:04:40.776898401-07:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -41,12 +41,12 @@ entries:
     sources:
     - https://github.com/bitnami/charts/tree/main/bitnami/redis
     urls:
-    - https://pharaofranz.github.io/canfar-deployments/helm/applications/skaha/charts/redis-18.19.4.tgz
+    - https://pharaofranz.github.io/canfar-deployments/charts/redis-18.19.4.tgz
     version: 18.19.4
   skaha:
   - apiVersion: v2
     appVersion: 1.1.7
-    created: "2026-04-02T15:06:41.308058867+02:00"
+    created: "2026-05-28T15:04:40.773498587-07:00"
     dependencies:
     - name: redis
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -56,7 +56,7 @@ entries:
       version: ^0.1.0
     description: A Helm chart to install the Skaha web service of the CANFAR Science
       Platform
-    digest: a0fd39dad1c5be19ab71fce0f8f3b186af8d70ec56f6ce310b8c6030a92de1bb
+    digest: da2a5e3bc8f919f417fd0b91fcfe5a686322cabaed9164bd64b01ace7c60bc16
     icon: https://www.canfar.net/css/images/logo.png
     maintainers:
     - email: djenkins.cadc@gmail.com
@@ -66,14 +66,14 @@ entries:
     name: skaha
     type: application
     urls:
-    - https://pharaofranz.github.io/canfar-deployments/helm/applications/skaha/skaha-1.3.3.tgz
+    - https://pharaofranz.github.io/canfar-deployments/skaha-1.3.3.tgz
     version: 1.3.3
   utils:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-04-02T15:06:41.311245814+02:00"
+    created: "2026-05-28T15:04:40.777078651-07:00"
     description: A library Helm chart for common tasks
-    digest: f44fed4ce569c8d982fe2337f2513c5526405777e28d1f1af1921ac7f0794eba
+    digest: 922c85d7ba144487ae1386d7f5b79769fb7617878d874f0f5b14dae9a8d0a851
     maintainers:
     - email: shiny.brar@nrc-cnrc.gc.ca
       name: Shiny Brar
@@ -82,6 +82,6 @@ entries:
     name: utils
     type: library
     urls:
-    - https://pharaofranz.github.io/canfar-deployments/helm/applications/skaha/charts/utils-0.1.1.tgz
+    - https://pharaofranz.github.io/canfar-deployments/charts/utils-0.1.1.tgz
     version: 0.1.1
-generated: "2026-04-02T15:06:41.300246441+02:00"
+generated: "2026-05-28T15:04:40.766658293-07:00"
