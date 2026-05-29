@@ -215,8 +215,6 @@ Common security context settings for User Session Jobs
 {{- define "skaha.job.securityContext" -}}
         runAsUser: ${skaha.posixid}
         runAsGroup: ${skaha.posixid}
-        fsGroup: ${skaha.posixid}
-        fsGroupChangePolicy: "OnRootMismatch"
         supplementalGroups: [${skaha.supgroups}]
         runAsNonRoot: true
         seccompProfile:
